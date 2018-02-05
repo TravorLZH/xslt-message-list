@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<msglist name="Travor" description="This is a list of messages related to Travor">
+	<message>
+		<title>Hello world</title>
+		<text>This is the first message proceesed by XSLT</text>
+		<mail>travor_lzh@outlook.com</mail>
+		<date>2018-2-5</date>
+	</message>
+	<message>
+		<title>Multiple Messages!</title>
+		<text>This stylesheet processed more than one messsages!</text>
+		<mail>travorliu@rmacademy.com</mail>
+		<date>2018-2-5</date>
+	</message>
+	<message>
+		<title>This is another message</title>
+		<text>I don't know why I've got that much email address</text>
+		<mail>travorlzh@gmail.com</mail>
+		<date>2018-2-5</date>
+	</message>
+</msglist>

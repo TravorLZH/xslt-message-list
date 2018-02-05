@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+}
+header{
+	padding: 1px;
+	margin: 0;
+	display: block;
+	background-color: #EFEFEF;
+}
+main{
+	margin: 10px;
+}
+aside{
+	display: block;
+	margin: 10px;
+	padding: 5px 10px;
+	box-shadow: 2px 2px 5px gray;
+}
+.msg{
+	overflow: hidden;
+	display: block;
+	padding: 5px 10px;
+	margin: 5px 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px gray;
+}
+.msg a{
+	text-decoration: none;
+}
+@media only screen and (min-width: 420px){
+	aside{
+		display: block;
+		width: calc(30% - 40px);
+		float: left;
+	}
+	main{
+		width: 70%;
+		margin-left: 30%;
+	}
+	.msg{
+		display: inline-block;
+		float: left;
+		width: calc(50% - 40px);
+	}
+}
